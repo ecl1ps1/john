@@ -133,6 +133,8 @@
         margin-top: 11px; }
 
 @media (max-width: 767px) {
+  .features-works-block-img.mobile img {
+    width: 95%; }
   .recents-post-name {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -161,6 +163,11 @@
       margin-bottom: 17px !important; } }
 
 @media (max-width: 438px) {
+  .features-works-description {
+    font-size: 14px;
+    width: 92%; }
+  .features-works-block-img.mobile img {
+    width: 92%; }
   .recent-posts ._home-container .recents-post-name .recents-post-p p {
     font-weight: 400;
     font-size: 22px;
