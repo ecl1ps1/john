@@ -151,11 +151,11 @@
 @media (max-width: 438px) {
     .features-works-description {
         font-size: 14px;
-        width: 92%
+        width: 80%
     }
     .features-works-block-img.mobile {
         img {
-            width: 92%;
+            width: 90%;
         }
     }
     .recent-posts {
@@ -190,6 +190,14 @@
                 }
             }
             
+        }
+    }
+}
+
+@media (max-width: 377px) {
+    .features-works-block-img.mobile {
+        img {
+            width: 80%;
         }
     }
 }
@@ -269,4 +277,7 @@
         .features-works-p p {
             text-align: center;
         }
+}
+@media (max-width: 286px) {
+    
 }
