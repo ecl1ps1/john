@@ -1,0 +1,87 @@
+.nav-works {
+    color: #FF6464 !important;
+}
+.features-works-block.hide {
+    display: none !important;
+}
+
+
+@media (max-width: 767px) {
+    .features-works-block-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .features-works-block {
+        flex-direction: column;
+        .features-works-block-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            width: 350px;
+        }
+    }
+    .features-works-block.hide-mobile {
+        display: none !important;
+    }
+    .features-works-block.hide{
+        display: block !important;
+    }
+
+}
+
+.features-works {
+    margin-bottom: 130px;
+    .features-works-p {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        margin-top: 15px;
+    }
+    .features-works-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .features-works-block {
+            border-bottom: 1px solid #E0E0E0;
+            padding-bottom: 30px;
+            margin-top: 30px;
+            display: flex;
+            .features-works-block-text {
+                margin-left: 18px;
+                h1 {
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 44px;
+                }
+                .features-works-data {
+                    .features-works-data-description {
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 29px;
+                        color: #8695a4;
+                        margin-left: 36px;
+                    }
+                    .features-works-data-years {
+                        font-weight: 900;
+                        color: white;
+                        font-size: 18px;
+                        line-height: 60px;
+                        border-radius: 16px;
+                        padding: 0px 10px;
+                        background-color: #142850;
+                    }
+                }
+                .features-works-description {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}

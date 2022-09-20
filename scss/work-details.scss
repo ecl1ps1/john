@@ -1,0 +1,57 @@
+.work-detail-column {
+    display: flex;
+    flex-direction: column;
+    .work-detail-heading {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 50px;
+        margin-top: 78px;
+        margin-bottom: 30px;
+    }
+    img {
+        width: 100%;
+    }
+    .work-detail-date {
+        .work-detail-year {
+            font-weight: 900;
+            color: white;
+            font-size: 18px;
+            background-color: #ff7c7c;
+            border-radius: 16px;
+            padding: 0 10px;
+        }
+        .work-detail-date-description {
+            margin-left: 17px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 29px;
+        }
+    }
+    .work-detail-heading-description {
+        color: black;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 23px;
+        margin-bottom: 46px;
+    }
+    .work-detail-block {
+        margin-top: 57px;
+        .work-detail-block-heading-1 {
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 60px;
+        }
+        .work-detail-block-heading-2 {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 60px;
+        }
+        .work-detail-images-3 {
+            margin-top: 27px;
+        }
+    }
+}
+.footer-links {
+    margin-top: 78px;
+}
