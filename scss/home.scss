@@ -143,6 +143,42 @@
         }
     }
 }
+@media (max-width: 438px) {
+    .recent-posts {
+        ._home-container {
+            .recents-post-name {
+                .recents-post-p {
+                    p {
+                        font-weight: 400;
+                        font-size: 22px;
+                        line-height: 60px;
+                    }
+                }
+                a {
+                    color: #00A8CC;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+            .recents-blocks {
+                .recent-block {
+                    padding: 22px;
+                    background-color: #ffff;
+                    width: 99%;
+                    height: 300px;
+                    .recents-block-h1 {
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 38px;
+                        padding-bottom: 17px;
+                    }
+                }
+            }
+            
+        }
+    }
+}
 
 // sssssssssssssssssssssssssssssssssssssss
 
